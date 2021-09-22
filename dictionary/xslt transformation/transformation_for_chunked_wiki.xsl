@@ -4,6 +4,7 @@
     version="2.0">
     <xsl:output method="text" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/>
+    
     <xsl:template match="page">
         <xsl:if test="contains(.,'=== {{S|verbe|fr}} ===')">
             <xsl:choose>
